@@ -77,3 +77,76 @@
 //   { name: "Monitor", price: 7000 },
 // ];
 // console.log(pricesSumArray(arr));
+
+// // ### Masala 4:
+// function verifyArray(arg) {
+//   if (
+//     arg.every(function (value) {
+//       return value > 0;
+//     })
+//   ) {
+//     console.log("Barcha sonlar musbat");
+//   }
+//   if (
+//     arg.some(function (value) {
+//       return value > 100;
+//     })
+//   ) {
+//     console.log("Katta son bor");
+//   }
+// }
+// let arr = [10, 25, 50, 120];
+// verifyArray(arr);
+
+// // ### Masala 5:
+// function kv(arg) {
+//   arg.forEach(function (value) {
+//     console.log(value * value);
+//   });
+// }
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// kv(arr);
+// // ### Masala 6:
+// function counterArray(arg) {
+//   let sum = arg
+//     .filter(function (value) {
+//       return value.wage >= 2000;
+//     })
+//     .map(function (value) {
+//       return value.wage * 1.1;
+//     })
+//     .reduce(function (value, index) {
+//       return value + index;
+//     }, 0);
+
+//   return sum;
+// }
+// let arr = [
+//   { name: "Ali", wage: 1500 },
+//   { name: "Vali", wage: 2500 },
+//   { name: "Aziz", wage: 3500 },
+//   { name: "Shahzod", wage: 1800 },
+// ];
+// console.log(counterArray(arr));
+// // ### Masala 7:
+// // Ishlay olmadim buni domladan ishlap berishini soreman.
+// // // // Yozuvlarga oid
+// // ### Masala 1:
+// const toUpperCaseString = (str) => str.toUpperCase();
+// let str = "salom dunyo";
+// console.log(toUpperCaseString(str));
+
+// // ### Masala 3:
+// function switchString(str) {
+//   return str.replace("JavaScript", "JS");
+// }
+// let str = "JavaScript";
+// console.log(switchString(str));
+// // ### Masala 4:
+// function reverseString(str) {
+//   return str.split(" ").reverse().join(" ");
+// }
+// let str = "Salom dunyo";
+// console.log(reverseString(str));
+// // ### Masala 5:
+// Bu savolga umuman tushuna olmadim
